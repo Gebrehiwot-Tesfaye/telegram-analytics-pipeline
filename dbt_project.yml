@@ -1,0 +1,12 @@
+telegram_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: telegram_analytics
+      pass: Gebby@0953
+      dbname: telegram_analytics
+      schema: public

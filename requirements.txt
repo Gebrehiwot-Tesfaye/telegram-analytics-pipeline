@@ -4,3 +4,4 @@ psycopg2-binary
 telethon
 dotenv
 pandas
+dbt-postgres
