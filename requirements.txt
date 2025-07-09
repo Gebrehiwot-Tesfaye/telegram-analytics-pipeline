@@ -1,3 +1,6 @@
 # Python dependencies
 python-dotenv
 psycopg2-binary
+telethon
+dotenv
+pandas
