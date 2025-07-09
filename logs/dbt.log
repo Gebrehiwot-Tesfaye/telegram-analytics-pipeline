@@ -1,0 +1,512 @@
+[0m22:51:13.355816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E35F2B9B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E360530940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3605300D0>]}
+
+
+============================== 22:51:13.361479 | d4b97830-746f-40e7-b906-81dbd22be937 ==============================
+[0m22:51:13.361479 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:51:13.362795 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init telegram_analytics', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:51:13.415304 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\tesfa\.dbt
+[0m22:51:13.420453 [debug] [MainThread]: Starter project path: C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\include\starter_project
+[0m22:51:13.503637 [info ] [MainThread]: 
+Your new dbt project "telegram_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:51:13.505644 [info ] [MainThread]: Setting up your profile.
+[0m22:53:10.598004 [info ] [MainThread]: Profile telegram_analytics written to C:\Users\tesfa\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:53:10.600458 [debug] [MainThread]: Command `dbt init` succeeded at 22:53:10.600458 after 117.35 seconds
+[0m22:53:10.602012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E35F2B9B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36053DCC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36062B1C0>]}
+[0m22:53:10.604414 [debug] [MainThread]: Flushing usage events
+[0m22:53:11.853225 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:53:34.503519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A388325C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3895A5000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3895A41C0>]}
+
+
+============================== 22:53:34.508655 | fa74f99e-91c7-429d-8c2e-852f39891842 ==============================
+[0m22:53:34.508655 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:53:34.509834 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m22:53:34.545727 [info ] [MainThread]: dbt version: 1.10.3
+[0m22:53:34.546727 [info ] [MainThread]: python version: 3.10.11
+[0m22:53:34.547728 [info ] [MainThread]: python path: C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\Scripts\python.exe
+[0m22:53:34.548730 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:53:34.630014 [info ] [MainThread]: Using profiles dir at C:\Users\tesfa\.dbt
+[0m22:53:34.631526 [info ] [MainThread]: Using profiles.yml file at C:\Users\tesfa\.dbt\profiles.yml
+[0m22:53:34.632537 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m22:53:34.634534 [info ] [MainThread]: adapter type: postgres
+[0m22:53:34.635569 [info ] [MainThread]: adapter version: 1.9.0
+[0m22:53:34.636581 [info ] [MainThread]: Configuration:
+[0m22:53:34.637537 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:53:34.640534 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:53:34.641547 [info ] [MainThread]: Required dependencies:
+[0m22:53:34.643696 [debug] [MainThread]: Executing "git --help"
+[0m22:53:34.681301 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:53:34.683168 [debug] [MainThread]: STDERR: "b''"
+[0m22:53:34.684169 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:53:34.685168 [info ] [MainThread]: Connection:
+[0m22:53:34.686170 [info ] [MainThread]:   host: localhost
+[0m22:53:34.687182 [info ] [MainThread]:   port: 5432
+[0m22:53:34.689171 [info ] [MainThread]:   user: telegram_analytics
+[0m22:53:34.690187 [info ] [MainThread]:   database: telegram_analytics
+[0m22:53:34.692737 [info ] [MainThread]:   schema: schema
+[0m22:53:34.693719 [info ] [MainThread]:   connect_timeout: 10
+[0m22:53:34.694838 [info ] [MainThread]:   role: None
+[0m22:53:34.695832 [info ] [MainThread]:   search_path: None
+[0m22:53:34.696832 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:53:34.697833 [info ] [MainThread]:   sslmode: None
+[0m22:53:34.698838 [info ] [MainThread]:   sslcert: None
+[0m22:53:34.700583 [info ] [MainThread]:   sslkey: None
+[0m22:53:34.702114 [info ] [MainThread]:   sslrootcert: None
+[0m22:53:34.703124 [info ] [MainThread]:   application_name: dbt
+[0m22:53:34.704123 [info ] [MainThread]:   retries: 1
+[0m22:53:34.705632 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m22:53:35.271279 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:53:37.401534 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:53:37.401534 [debug] [MainThread]: On debug: select 1 as id
+[0m22:53:37.403565 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:53:37.444848 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+
+[0m22:53:37.479995 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:53:37.481501 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:53:37.482509 [debug] [MainThread]: On debug: No close available on handle
+[0m22:53:37.483508 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:53:37.485709 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:53:37.486707 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml> not found
+
+[0m22:53:37.487731 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:53:37.488707 [debug] [MainThread]: Command `dbt debug` failed at 22:53:37.488707 after 3.09 seconds
+[0m22:53:37.489707 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:53:37.489707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A388325C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A389700D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A389700B80>]}
+[0m22:53:37.491212 [debug] [MainThread]: Flushing usage events
+[0m22:53:38.209873 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:54:17.967339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021212FD5C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021215220A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212152201F0>]}
+
+
+============================== 22:54:17.972968 | e68b0c35-2735-4754-bf9f-fda8c7262b61 ==============================
+[0m22:54:17.972968 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:54:17.974191 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:54:18.005644 [info ] [MainThread]: dbt version: 1.10.3
+[0m22:54:18.006608 [info ] [MainThread]: python version: 3.10.11
+[0m22:54:18.007614 [info ] [MainThread]: python path: C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\Scripts\python.exe
+[0m22:54:18.008629 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:54:18.095064 [info ] [MainThread]: Using profiles dir at C:\Users\tesfa\.dbt
+[0m22:54:18.096033 [info ] [MainThread]: Using profiles.yml file at C:\Users\tesfa\.dbt\profiles.yml
+[0m22:54:18.097374 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m22:54:18.099408 [info ] [MainThread]: adapter type: postgres
+[0m22:54:18.100416 [info ] [MainThread]: adapter version: 1.9.0
+[0m22:54:18.101920 [info ] [MainThread]: Configuration:
+[0m22:54:18.102934 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:54:18.104930 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:54:18.106929 [info ] [MainThread]: Required dependencies:
+[0m22:54:18.107929 [debug] [MainThread]: Executing "git --help"
+[0m22:54:18.140264 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:54:18.141742 [debug] [MainThread]: STDERR: "b''"
+[0m22:54:18.141742 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:54:18.143740 [info ] [MainThread]: Connection:
+[0m22:54:18.144075 [info ] [MainThread]:   host: localhost
+[0m22:54:18.145189 [info ] [MainThread]:   port: 5432
+[0m22:54:18.146197 [info ] [MainThread]:   user: telegram_analytics
+[0m22:54:18.147197 [info ] [MainThread]:   database: telegram_analytics
+[0m22:54:18.148862 [info ] [MainThread]:   schema: schema
+[0m22:54:18.148862 [info ] [MainThread]:   connect_timeout: 10
+[0m22:54:18.150368 [info ] [MainThread]:   role: None
+[0m22:54:18.151405 [info ] [MainThread]:   search_path: None
+[0m22:54:18.153633 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:54:18.155635 [info ] [MainThread]:   sslmode: None
+[0m22:54:18.157632 [info ] [MainThread]:   sslcert: None
+[0m22:54:18.158634 [info ] [MainThread]:   sslkey: None
+[0m22:54:18.159639 [info ] [MainThread]:   sslrootcert: None
+[0m22:54:18.160631 [info ] [MainThread]:   application_name: dbt
+[0m22:54:18.160631 [info ] [MainThread]:   retries: 1
+[0m22:54:18.162956 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m22:54:18.521478 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:54:18.605373 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:54:18.606407 [debug] [MainThread]: On debug: select 1 as id
+[0m22:54:18.607388 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:54:18.649189 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+
+[0m22:54:18.685536 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:54:18.686543 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:54:18.687542 [debug] [MainThread]: On debug: No close available on handle
+[0m22:54:18.688544 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:54:18.689543 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:54:18.690544 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml> not found
+
+[0m22:54:18.691556 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:54:18.693621 [debug] [MainThread]: Command `dbt debug` failed at 22:54:18.693621 after 0.84 seconds
+[0m22:54:18.693621 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:54:18.694894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021212FD5C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021215374D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021215374B80>]}
+[0m22:54:18.695895 [debug] [MainThread]: Flushing usage events
+[0m22:54:19.419307 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:57:57.407289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F580FE1C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5823D4A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5823D41F0>]}
+
+
+============================== 22:57:57.411325 | de3fd5a4-c771-4c6a-86d5-9b161318a15e ==============================
+[0m22:57:57.411325 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:57:57.412533 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:57:57.440495 [info ] [MainThread]: dbt version: 1.10.3
+[0m22:57:57.441496 [info ] [MainThread]: python version: 3.10.11
+[0m22:57:57.442686 [info ] [MainThread]: python path: C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\Scripts\python.exe
+[0m22:57:57.443690 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:57:57.532115 [info ] [MainThread]: Using profiles dir at C:\Users\tesfa\.dbt
+[0m22:57:57.533118 [info ] [MainThread]: Using profiles.yml file at C:\Users\tesfa\.dbt\profiles.yml
+[0m22:57:57.534144 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m22:57:57.536148 [info ] [MainThread]: adapter type: postgres
+[0m22:57:57.537162 [info ] [MainThread]: adapter version: 1.9.0
+[0m22:57:57.538654 [info ] [MainThread]: Configuration:
+[0m22:57:57.539663 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:57:57.540661 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:57:57.540661 [info ] [MainThread]: Required dependencies:
+[0m22:57:57.542041 [debug] [MainThread]: Executing "git --help"
+[0m22:57:57.572669 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:57:57.573686 [debug] [MainThread]: STDERR: "b''"
+[0m22:57:57.574656 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:57:57.575683 [info ] [MainThread]: Connection:
+[0m22:57:57.576646 [info ] [MainThread]:   host: localhost
+[0m22:57:57.577683 [info ] [MainThread]:   port: 5432
+[0m22:57:57.578679 [info ] [MainThread]:   user: telegram_analytics
+[0m22:57:57.579683 [info ] [MainThread]:   database: telegram_analytics
+[0m22:57:57.580661 [info ] [MainThread]:   schema: schema
+[0m22:57:57.581684 [info ] [MainThread]:   connect_timeout: 10
+[0m22:57:57.582778 [info ] [MainThread]:   role: None
+[0m22:57:57.584779 [info ] [MainThread]:   search_path: None
+[0m22:57:57.586779 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:57:57.588784 [info ] [MainThread]:   sslmode: None
+[0m22:57:57.589790 [info ] [MainThread]:   sslcert: None
+[0m22:57:57.589790 [info ] [MainThread]:   sslkey: None
+[0m22:57:57.591297 [info ] [MainThread]:   sslrootcert: None
+[0m22:57:57.592353 [info ] [MainThread]:   application_name: dbt
+[0m22:57:57.593810 [info ] [MainThread]:   retries: 1
+[0m22:57:57.594819 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m22:57:57.947310 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:57:58.040174 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:57:58.041719 [debug] [MainThread]: On debug: select 1 as id
+[0m22:57:58.042728 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:57:58.085495 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+
+[0m22:57:58.122513 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:57:58.124903 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:57:58.125903 [debug] [MainThread]: On debug: No close available on handle
+[0m22:57:58.125903 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:57:58.127905 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:57:58.128902 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml> not found
+
+[0m22:57:58.129921 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:57:58.132444 [debug] [MainThread]: Command `dbt debug` failed at 22:57:58.132444 after 0.82 seconds
+[0m22:57:58.133443 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:57:58.133443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F580FE1C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F58252DD80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F58252CBE0>]}
+[0m22:57:58.134740 [debug] [MainThread]: Flushing usage events
+[0m22:57:58.993353 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:58:18.838350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DC4EE5C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DC71309D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DC7130190>]}
+
+
+============================== 22:58:18.843447 | 8f672fda-1f63-466a-a22d-fc4276d3288c ==============================
+[0m22:58:18.843447 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:58:18.844665 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init telegram_analytics', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:58:18.873759 [info ] [MainThread]: A project called telegram_analytics already exists here.
+[0m22:58:18.876056 [debug] [MainThread]: Command `dbt init` succeeded at 22:58:18.876056 after 0.15 seconds
+[0m22:58:18.877057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DC4EE5C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DC71309D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DC7130F40>]}
+[0m22:58:18.879086 [debug] [MainThread]: Flushing usage events
+[0m22:58:19.586025 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:58:30.051513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227DE6F9C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227DF974A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227DF9741F0>]}
+
+
+============================== 22:58:30.056820 | 758f4a04-961d-48e7-93a8-5a6d50c1c0dd ==============================
+[0m22:58:30.056820 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:58:30.057792 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:58:30.087519 [info ] [MainThread]: dbt version: 1.10.3
+[0m22:58:30.087519 [info ] [MainThread]: python version: 3.10.11
+[0m22:58:30.088979 [info ] [MainThread]: python path: C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\Scripts\python.exe
+[0m22:58:30.091474 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:58:30.180097 [info ] [MainThread]: Using profiles dir at C:\Users\tesfa\.dbt
+[0m22:58:30.181601 [info ] [MainThread]: Using profiles.yml file at C:\Users\tesfa\.dbt\profiles.yml
+[0m22:58:30.183609 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m22:58:30.186608 [info ] [MainThread]: adapter type: postgres
+[0m22:58:30.188113 [info ] [MainThread]: adapter version: 1.9.0
+[0m22:58:30.189128 [info ] [MainThread]: Configuration:
+[0m22:58:30.190120 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:58:30.193636 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:58:30.196162 [info ] [MainThread]: Required dependencies:
+[0m22:58:30.197160 [debug] [MainThread]: Executing "git --help"
+[0m22:58:30.239348 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:58:30.241348 [debug] [MainThread]: STDERR: "b''"
+[0m22:58:30.243580 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:58:30.245478 [info ] [MainThread]: Connection:
+[0m22:58:30.246502 [info ] [MainThread]:   host: localhost
+[0m22:58:30.247493 [info ] [MainThread]:   port: 5432
+[0m22:58:30.248484 [info ] [MainThread]:   user: telegram_analytics
+[0m22:58:30.250486 [info ] [MainThread]:   database: telegram_analytics
+[0m22:58:30.251484 [info ] [MainThread]:   schema: schema
+[0m22:58:30.252743 [info ] [MainThread]:   connect_timeout: 10
+[0m22:58:30.255473 [info ] [MainThread]:   role: None
+[0m22:58:30.256470 [info ] [MainThread]:   search_path: None
+[0m22:58:30.259476 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:58:30.261988 [info ] [MainThread]:   sslmode: None
+[0m22:58:30.263999 [info ] [MainThread]:   sslcert: None
+[0m22:58:30.264998 [info ] [MainThread]:   sslkey: None
+[0m22:58:30.266998 [info ] [MainThread]:   sslrootcert: None
+[0m22:58:30.268997 [info ] [MainThread]:   application_name: dbt
+[0m22:58:30.269997 [info ] [MainThread]:   retries: 1
+[0m22:58:30.272515 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m22:58:30.672314 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:58:30.768148 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:58:30.768148 [debug] [MainThread]: On debug: select 1 as id
+[0m22:58:30.769178 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:58:30.812964 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+
+[0m22:58:30.851555 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:58:30.853846 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:58:30.854868 [debug] [MainThread]: On debug: No close available on handle
+[0m22:58:30.856868 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:58:30.857832 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:58:30.858833 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml> not found
+
+[0m22:58:30.859831 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_analytics"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:58:30.861358 [debug] [MainThread]: Command `dbt debug` failed at 22:58:30.861358 after 0.91 seconds
+[0m22:58:30.862421 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:58:30.863380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227DE6F9C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227DFACECB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227DFACC0A0>]}
+[0m22:58:30.864634 [debug] [MainThread]: Flushing usage events
+[0m22:58:31.578430 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:06:33.561861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFCF25C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFE1A4F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFE1A41F0>]}
+
+
+============================== 23:06:33.566166 | 7d179fd3-a668-450c-b60d-c2a37ddf0fa9 ==============================
+[0m23:06:33.566166 [info ] [MainThread]: Running with dbt=1.10.3
+[0m23:06:33.567130 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:06:33.596767 [info ] [MainThread]: dbt version: 1.10.3
+[0m23:06:33.597789 [info ] [MainThread]: python version: 3.10.11
+[0m23:06:33.597789 [info ] [MainThread]: python path: C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\Scripts\python.exe
+[0m23:06:33.598774 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:06:33.680257 [info ] [MainThread]: Using profiles dir at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline
+[0m23:06:33.681766 [info ] [MainThread]: Using profiles.yml file at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\profiles.yml
+[0m23:06:33.682775 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m23:06:33.685097 [info ] [MainThread]: adapter type: postgres
+[0m23:06:33.686108 [info ] [MainThread]: adapter version: 1.9.0
+[0m23:06:33.693986 [info ] [MainThread]: Configuration:
+[0m23:06:33.695625 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:06:33.696632 [info ] [MainThread]:   dbt_project.yml file [[31mERROR invalid[0m]
+[0m23:06:33.697613 [info ] [MainThread]: Required dependencies:
+[0m23:06:33.698605 [debug] [MainThread]: Executing "git --help"
+[0m23:06:33.728787 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:06:33.728787 [debug] [MainThread]: STDERR: "b''"
+[0m23:06:33.729772 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:06:33.730735 [info ] [MainThread]: Connection:
+[0m23:06:33.731740 [info ] [MainThread]:   host: localhost
+[0m23:06:33.733011 [info ] [MainThread]:   port: 5432
+[0m23:06:33.734186 [info ] [MainThread]:   user: telegram_analytics
+[0m23:06:33.734186 [info ] [MainThread]:   database: telegram_analytics
+[0m23:06:33.735206 [info ] [MainThread]:   schema: public
+[0m23:06:33.736188 [info ] [MainThread]:   connect_timeout: 10
+[0m23:06:33.737190 [info ] [MainThread]:   role: None
+[0m23:06:33.738200 [info ] [MainThread]:   search_path: None
+[0m23:06:33.740203 [info ] [MainThread]:   keepalives_idle: 0
+[0m23:06:33.742740 [info ] [MainThread]:   sslmode: None
+[0m23:06:33.743738 [info ] [MainThread]:   sslcert: None
+[0m23:06:33.744976 [info ] [MainThread]:   sslkey: None
+[0m23:06:33.745942 [info ] [MainThread]:   sslrootcert: None
+[0m23:06:33.746975 [info ] [MainThread]:   application_name: dbt
+[0m23:06:33.747942 [info ] [MainThread]:   retries: 1
+[0m23:06:33.748943 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m23:06:34.099059 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m23:06:34.200088 [debug] [MainThread]: Using postgres connection "debug"
+[0m23:06:34.201595 [debug] [MainThread]: On debug: select 1 as id
+[0m23:06:34.202604 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:06:34.258809 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "telegram_analytics" does not exist
+
+[0m23:06:34.298188 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m23:06:34.299190 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m23:06:34.300191 [debug] [MainThread]: On debug: No close available on handle
+[0m23:06:34.300191 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:06:34.301727 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:06:34.304686 [info ] [MainThread]: Project loading failed for the following reason:
+Runtime Error
+  data-paths and seed-paths cannot both be defined. The `data-paths` config has been deprecated in favor of `seed-paths`. Please update your `dbt_project.yml` configuration to reflect this change.
+
+Error encountered in C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+
+
+[0m23:06:34.306206 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "telegram_analytics" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:06:34.309206 [debug] [MainThread]: Command `dbt debug` failed at 23:06:34.309206 after 0.86 seconds
+[0m23:06:34.310204 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:06:34.310204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFCF25C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFE335120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFE335A20>]}
+[0m23:06:34.311710 [debug] [MainThread]: Flushing usage events
+[0m23:06:35.176837 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:33:13.426589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD6C11CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7EBF490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7EBC760>]}
+
+
+============================== 23:33:13.430631 | 1b0c529d-e293-4b8d-b90c-cd9f5446b177 ==============================
+[0m23:33:13.430631 [info ] [MainThread]: Running with dbt=1.10.3
+[0m23:33:13.431631 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:33:13.433888 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline/profiles.yml
+  
+[0m23:33:13.436155 [debug] [MainThread]: Command `dbt run` failed at 23:33:13.436155 after 0.12 seconds
+[0m23:33:13.437198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD6C11CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7F00310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022DD7F00160>]}
+[0m23:33:13.438147 [debug] [MainThread]: Flushing usage events
+[0m23:33:16.169925 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:33:19.187518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C0C6B9C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C0D733340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C0D9402B0>]}
+
+
+============================== 23:33:19.192112 | 75a8f43c-7ba9-416d-95fc-170f12efba92 ==============================
+[0m23:33:19.192112 [info ] [MainThread]: Running with dbt=1.10.3
+[0m23:33:19.193616 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt test', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:33:19.196706 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline/profiles.yml
+  
+[0m23:33:19.200708 [debug] [MainThread]: Command `dbt test` failed at 23:33:19.199706 after 0.11 seconds
+[0m23:33:19.202214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C0C6B9C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C0D9403A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C0D940340>]}
+[0m23:33:19.204560 [debug] [MainThread]: Flushing usage events
+[0m23:33:20.653593 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:35:54.042665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBDC0E5C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBDE2CB7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBDE2C88E0>]}
+
+
+============================== 23:35:54.048002 | 8a34c895-18f9-4582-befb-1cdde459fdf0 ==============================
+[0m23:35:54.048002 [info ] [MainThread]: Running with dbt=1.10.3
+[0m23:35:54.050010 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:35:54.052503 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline/profiles.yml
+  
+[0m23:35:54.055451 [debug] [MainThread]: Command `dbt run` failed at 23:35:54.054778 after 0.11 seconds
+[0m23:35:54.056461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBDC0E5C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBDE2CBAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBDD38F910>]}
+[0m23:35:54.057461 [debug] [MainThread]: Flushing usage events
+[0m23:35:54.768983 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:35:57.833391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512C779C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512CA2AA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512D988940>]}
+
+
+============================== 23:35:57.838392 | 70a13e73-58c1-4dd1-82a9-211f0760e254 ==============================
+[0m23:35:57.838392 [info ] [MainThread]: Running with dbt=1.10.3
+[0m23:35:57.839390 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m23:35:57.841935 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline/profiles.yml
+  
+[0m23:35:57.843453 [debug] [MainThread]: Command `dbt test` failed at 23:35:57.843453 after 0.11 seconds
+[0m23:35:57.844686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512C779C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512D989B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512D98BEB0>]}
+[0m23:35:57.844686 [debug] [MainThread]: Flushing usage events
+[0m23:35:58.540401 [debug] [MainThread]: An error was encountered while trying to flush usage events

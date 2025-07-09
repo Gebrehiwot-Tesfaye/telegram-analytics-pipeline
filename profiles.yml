@@ -1,0 +1,21 @@
+name: "telegram_analytics"
+version: "1.0.0"
+config-version: 2
+
+profile: "telegram_analytics"
+
+model-paths: ["models"]
+
+telegram_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: telegram_analytics
+      pass: Gebby@0953
+      dbname: telegram_analytics
+      profile: "telegram_analytics"
+      schema: public
