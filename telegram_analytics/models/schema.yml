@@ -1,5 +1,12 @@
 version: 2
 
+sources:
+  - name: public
+    database: telegram_analytics
+    schema: public
+    tables:
+      - name: raw_telegram_messages
+
 models:
   - name: dim_channels
     description: "Dimension table for Telegram channels"
@@ -11,6 +18,15 @@ models:
           - not_null
       - name: channel_name
         description: "Human-readable channel name"
+
+  - name: dim_dates
+    description: "Dimension table for dates"
+    columns:
+      - name: date_id
+        description: "Date identifier"
+        tests:
+          - unique
+          - not_null
 
   - name: fct_messages
     description: "Fact table for Telegram messages"
@@ -26,3 +42,7 @@ models:
           - not_null
       - name: media_path
         description: "Local path to image if present"
+      - name: message_length
+        description: "Length of the message text"
+      - name: has_image
+        description: "1 if message has image, else 0"

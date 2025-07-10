@@ -510,3 +510,18 @@ Runtime Error
 [0m23:35:57.844686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512C779C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512D989B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001512D98BEB0>]}
 [0m23:35:57.844686 [debug] [MainThread]: Flushing usage events
 [0m23:35:58.540401 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:42:44.208800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0C365C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0D57B7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0D5788B0>]}
+
+
+============================== 19:42:44.224190 | a53ee807-6051-49cd-a280-4088ac465081 ==============================
+[0m19:42:44.224190 [info ] [MainThread]: Running with dbt=1.10.3
+[0m19:42:44.227975 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt seed', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:44.855813 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('telegram_analytics' was unexpected)
+
+Error encountered in C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m19:42:44.863603 [debug] [MainThread]: Command `dbt seed` failed at 19:42:44.863603 after 1.06 seconds
+[0m19:42:44.866214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0C365C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0D59C040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0D59E230>]}
+[0m19:42:44.866214 [debug] [MainThread]: Flushing usage events
+[0m19:42:45.860875 [debug] [MainThread]: An error was encountered while trying to flush usage events
