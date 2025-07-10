@@ -11,6 +11,9 @@ select
     media,
     media_path,
     channel_id,
+    channel_name,
+    channel_url,
+
     length(text) as message_length,
     case when media then 1 else 0 end as has_image
 from raw
