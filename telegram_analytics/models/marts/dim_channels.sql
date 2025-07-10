@@ -1,4 +1,4 @@
 select
     channel_id,
     channel_name
-from {{ source('public', 'channels') }}
+from {{ ref('channels') }}
