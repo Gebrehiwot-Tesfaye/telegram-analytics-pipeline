@@ -1,0 +1,482 @@
+[
+  {
+    "message_id": "photo_2022-09-05_09-57-09 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-05_09-57-09 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38718321919441223
+  },
+  {
+    "message_id": "photo_2022-09-05_09-57-09 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-05_09-57-09 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38718321919441223
+  },
+  {
+    "message_id": "photo_2022-09-05_09-57-09",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-05_09-57-09.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38718321919441223
+  },
+  {
+    "message_id": "photo_2022-09-06_04-26-15 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-06_04-26-15 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38718321919441223
+  },
+  {
+    "message_id": "photo_2022-09-06_04-26-15 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-06_04-26-15 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38718321919441223
+  },
+  {
+    "message_id": "photo_2022-09-06_04-26-15",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-06_04-26-15.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38718321919441223
+  },
+  {
+    "message_id": "photo_2022-09-10_15-55-25 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-10_15-55-25 (1).jpg",
+    "detected_object_class": "clock",
+    "confidence_score": 0.4272933602333069
+  },
+  {
+    "message_id": "photo_2022-09-10_15-55-25 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-10_15-55-25 (2).jpg",
+    "detected_object_class": "clock",
+    "confidence_score": 0.4272933602333069
+  },
+  {
+    "message_id": "photo_2022-09-10_15-55-25",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-10_15-55-25.jpg",
+    "detected_object_class": "clock",
+    "confidence_score": 0.4272933602333069
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (1).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.5038553476333618
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (1).jpg",
+    "detected_object_class": "donut",
+    "confidence_score": 0.398997962474823
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (1).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.3097332715988159
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (1).jpg",
+    "detected_object_class": "donut",
+    "confidence_score": 0.29692205786705017
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (1).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.2636593282222748
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (1).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.2502399981021881
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (2).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.5038553476333618
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (2).jpg",
+    "detected_object_class": "donut",
+    "confidence_score": 0.398997962474823
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (2).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.3097332715988159
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (2).jpg",
+    "detected_object_class": "donut",
+    "confidence_score": 0.29692205786705017
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (2).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.2636593282222748
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31 (2).jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.2502399981021881
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31.jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.5038553476333618
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31.jpg",
+    "detected_object_class": "donut",
+    "confidence_score": 0.398997962474823
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31.jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.3097332715988159
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31.jpg",
+    "detected_object_class": "donut",
+    "confidence_score": 0.29692205786705017
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31.jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.2636593282222748
+  },
+  {
+    "message_id": "photo_2022-09-16_07-42-31",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-09-16_07-42-31.jpg",
+    "detected_object_class": "hot dog",
+    "confidence_score": 0.2502399981021881
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.52596515417099
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.4945501983165741
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.4317876398563385
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38737913966178894
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3849708139896393
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3799239695072174
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3748769164085388
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3264200985431671
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.2848587930202484
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.27928876876831055
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (1).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.271879106760025
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.52596515417099
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.4945501983165741
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.4317876398563385
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38737913966178894
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3849708139896393
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3799239695072174
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3748769164085388
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3264200985431671
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.2848587930202484
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.27928876876831055
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30 (2).jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.271879106760025
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.52596515417099
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.4945501983165741
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.4317876398563385
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.38737913966178894
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3849708139896393
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3799239695072174
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3748769164085388
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.3264200985431671
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.2848587930202484
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.27928876876831055
+  },
+  {
+    "message_id": "photo_2022-10-03_05-16-30",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-03_05-16-30.jpg",
+    "detected_object_class": "bottle",
+    "confidence_score": 0.271879106760025
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (1).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9401443600654602
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (1).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9276632070541382
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (1).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.3616374731063843
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (1).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.32225027680397034
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (2).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9401443600654602
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (2).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9276632070541382
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (2).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.3616374731063843
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19 (2).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.32225027680397034
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19.jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9401443600654602
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19.jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9276632070541382
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19.jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.3616374731063843
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-19",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-19.jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.32225027680397034
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (1).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9401443600654602
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (1).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9276632070541382
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (1).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.3616374731063843
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (1)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (1).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.32225027680397034
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (2).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9401443600654602
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (2).jpg",
+    "detected_object_class": "person",
+    "confidence_score": 0.9276632070541382
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (2).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.3616374731063843
+  },
+  {
+    "message_id": "photo_2022-10-12_14-14-52 (2)",
+    "media_path": "media\\2025-07-09\\CheMed123\\photo_2022-10-12_14-14-52 (2).jpg",
+    "detected_object_class": "dining table",
+    "confidence_score": 0.32225027680397034
+  }
+]
