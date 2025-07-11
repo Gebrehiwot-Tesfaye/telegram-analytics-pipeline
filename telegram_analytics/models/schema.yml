@@ -6,6 +6,7 @@ sources:
     schema: public
     tables:
       - name: raw_telegram_messages
+      - name: image_detections
 
 models:
   - name: dim_channels

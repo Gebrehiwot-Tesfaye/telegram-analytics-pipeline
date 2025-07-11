@@ -5,3 +5,4 @@ telethon
 dotenv
 pandas
 dbt-postgres
+ultralytics
