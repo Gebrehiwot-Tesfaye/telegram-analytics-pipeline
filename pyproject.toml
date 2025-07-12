@@ -1,0 +1,2 @@
+[tool.dagster]
+project_name = "telegram_analytics_pipeline"

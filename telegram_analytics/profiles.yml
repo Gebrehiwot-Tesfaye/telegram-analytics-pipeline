@@ -1,11 +1,3 @@
-name: "telegram_analytics"
-version: "1.0.0"
-config-version: 2
-
-profile: "telegram_analytics"
-
-model-paths: ["models"]
-
 telegram_analytics:
   target: dev
   outputs:
@@ -17,5 +9,4 @@ telegram_analytics:
       user: telegram_analytics
       pass: Gebby@0953
       dbname: telegram_analytics
-      profile: "telegram_analytics"
       schema: public

@@ -1362,3 +1362,95 @@
 2025-07-10 20:50:48,658 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
 2025-07-10 20:50:48,660 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
 2025-07-10 20:50:48,675 INFO:Scraped 500 new messages, 185 preprocessed, and 100 images from https://t.me/tikvahpharma
+2025-07-12 20:37:34,230 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 20:37:34,415 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 20:37:36,512 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 20:37:36,513 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 20:37:36,524 INFO:Scraped 0 new messages, 0 preprocessed, and 0 images from https://t.me/CheMed123
+2025-07-12 20:37:36,543 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 20:37:36,691 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 20:37:39,028 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:41,253 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:43,663 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:44,150 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:45,553 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:46,448 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:47,864 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:48,400 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:49,034 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:50,239 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:52,183 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:52,840 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:55,218 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:56,565 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:57,137 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:37:58,403 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:00,684 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:04,091 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:04,870 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 20:38:04,870 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 20:38:04,876 INFO:Scraped 18 new messages, 18 preprocessed, and 18 images from https://t.me/lobelia4cosmetics
+2025-07-12 20:38:04,905 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 20:38:05,058 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 20:38:08,105 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:10,646 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:12,267 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:13,925 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:14,910 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:17,242 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:18,170 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:20,585 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:23,355 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:24,819 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:26,495 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:30,045 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:32,540 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:35,067 INFO:Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 20:38:36,243 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 20:38:36,244 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 20:38:36,263 INFO:Scraped 50 new messages, 21 preprocessed, and 14 images from https://t.me/tikvahpharma
+2025-07-12 21:39:10,275 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 21:39:10,393 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:39:12,440 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 21:39:12,442 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:39:12,452 INFO:Scraped 0 new messages, 0 preprocessed, and 0 images from https://t.me/CheMed123
+2025-07-12 21:39:12,473 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 21:39:12,579 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:39:14,324 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 21:39:14,325 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:39:14,333 INFO:Scraped 0 new messages, 18 preprocessed, and 0 images from https://t.me/lobelia4cosmetics
+2025-07-12 21:39:14,356 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 21:39:14,458 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:39:16,871 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 21:39:16,871 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:39:16,878 INFO:Scraped 1 new messages, 21 preprocessed, and 0 images from https://t.me/tikvahpharma
+2025-07-12 21:47:59,777 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 21:47:59,882 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:48:01,814 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 21:48:01,817 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:48:01,830 INFO:Scraped 0 new messages, 0 preprocessed, and 0 images from https://t.me/CheMed123
+2025-07-12 21:48:01,862 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 21:48:01,957 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:48:03,911 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 21:48:03,917 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:48:03,939 INFO:Scraped 0 new messages, 18 preprocessed, and 0 images from https://t.me/lobelia4cosmetics
+2025-07-12 21:48:03,981 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 21:48:04,075 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:48:07,427 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 21:48:07,429 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 21:48:07,444 INFO:Scraped 0 new messages, 21 preprocessed, and 0 images from https://t.me/tikvahpharma
+2025-07-12 22:19:18,843 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 22:19:18,946 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 22:19:20,815 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 22:19:20,816 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 22:19:20,827 INFO:Scraped 0 new messages, 0 preprocessed, and 0 images from https://t.me/CheMed123
+2025-07-12 22:19:20,841 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 22:19:20,938 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 22:19:22,543 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 22:19:22,543 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 22:19:22,555 INFO:Scraped 0 new messages, 18 preprocessed, and 0 images from https://t.me/lobelia4cosmetics
+2025-07-12 22:19:22,574 INFO:Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 22:19:22,697 INFO:Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 22:19:24,885 INFO:Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 22:19:24,892 INFO:Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 22:19:24,903 INFO:Scraped 0 new messages, 21 preprocessed, and 0 images from https://t.me/tikvahpharma
