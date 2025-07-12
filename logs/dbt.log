@@ -525,3 +525,358 @@ Error encountered in C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeli
 [0m19:42:44.866214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0C365C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0D59C040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D0D59E230>]}
 [0m19:42:44.866214 [debug] [MainThread]: Flushing usage events
 [0m19:42:45.860875 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:39:45.192573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018761A4D480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018762C27C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018762C273A0>]}
+
+
+============================== 20:39:45.207412 | b9bfe288-db3f-4860-8ef3-1c7f572e3b66 ==============================
+[0m20:39:45.207412 [info ] [MainThread]: Running with dbt=1.10.3
+[0m20:39:45.209455 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:39:45.847142 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('telegram_analytics' was unexpected)
+
+Error encountered in C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\dbt_project.yml
+[0m20:39:45.847706 [debug] [MainThread]: Command `dbt run` failed at 20:39:45.847706 after 1.00 seconds
+[0m20:39:45.851408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018761A4D480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018762C9CE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018762C9E290>]}
+[0m20:39:45.852482 [debug] [MainThread]: Flushing usage events
+[0m20:39:47.087352 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:09:38.741359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002910169D480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000291039B88E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002910292DD50>]}
+
+
+============================== 21:09:38.757622 | 601c076e-ac81-4f0c-9913-07c5412a9d15 ==============================
+[0m21:09:38.757622 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:09:38.767882 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:09:40.341585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '601c076e-ac81-4f0c-9913-07c5412a9d15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103AD6410>]}
+[0m21:09:40.794678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '601c076e-ac81-4f0c-9913-07c5412a9d15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103A02890>]}
+[0m21:09:40.806493 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:09:42.745413 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:09:42.751218 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m21:09:42.765342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '601c076e-ac81-4f0c-9913-07c5412a9d15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103AD4550>]}
+[0m21:09:49.445428 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.telegram_analytics.no_empty_text' (tests\no_empty_text.sql) depends on a node named 'fct_messages' in package '' which was not found
+[0m21:09:49.742478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '601c076e-ac81-4f0c-9913-07c5412a9d15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103BCB940>]}
+[0m21:09:50.076403 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:09:50.130115 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:09:50.258828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '601c076e-ac81-4f0c-9913-07c5412a9d15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103FD5450>]}
+[0m21:09:50.262887 [info ] [MainThread]: Found 433 macros
+[0m21:09:50.268197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '601c076e-ac81-4f0c-9913-07c5412a9d15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103FD6860>]}
+[0m21:09:50.277356 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:09:50.281386 [debug] [MainThread]: Command end result
+[0m21:09:50.429567 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:09:50.441457 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:09:50.467068 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\run_results.json
+[0m21:09:50.475018 [debug] [MainThread]: Command `dbt run` succeeded at 21:09:50.473886 after 12.07 seconds
+[0m21:09:50.478269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002910169D480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103AD6410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029103A02890>]}
+[0m21:09:50.481917 [debug] [MainThread]: Flushing usage events
+[0m21:09:51.828255 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:18:27.995420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021752F51420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217551AC3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217551AC1C0>]}
+
+
+============================== 21:18:28.006151 | 33795ca5-85db-4b8d-ac4b-c6a8079b9dbd ==============================
+[0m21:18:28.006151 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:18:28.008754 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:29.032022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '33795ca5-85db-4b8d-ac4b-c6a8079b9dbd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217552866E0>]}
+[0m21:18:29.175232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '33795ca5-85db-4b8d-ac4b-c6a8079b9dbd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021754203520>]}
+[0m21:18:29.180287 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:18:30.074457 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:18:30.421220 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:18:30.423663 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:18:30.477638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '33795ca5-85db-4b8d-ac4b-c6a8079b9dbd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217557AC130>]}
+[0m21:18:30.702162 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:18:30.711485 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:18:30.794429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '33795ca5-85db-4b8d-ac4b-c6a8079b9dbd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217557B74F0>]}
+[0m21:18:30.798533 [info ] [MainThread]: Found 433 macros
+[0m21:18:30.801562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '33795ca5-85db-4b8d-ac4b-c6a8079b9dbd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217557B5B70>]}
+[0m21:18:30.806278 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:18:30.813693 [debug] [MainThread]: Command end result
+[0m21:18:30.884127 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:18:30.896289 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:18:30.906155 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\run_results.json
+[0m21:18:30.912222 [debug] [MainThread]: Command `dbt run` succeeded at 21:18:30.912222 after 3.20 seconds
+[0m21:18:30.912222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021752F51420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217541A98A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021755352BC0>]}
+[0m21:18:30.919910 [debug] [MainThread]: Flushing usage events
+[0m21:18:32.189066 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:26:28.809039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE1FD94B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE229C040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE3270280>]}
+
+
+============================== 21:26:28.822993 | 4f913a4f-8d64-4228-8921-4d90c866ebad ==============================
+[0m21:26:28.822993 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:26:28.822993 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:26:29.610226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4f913a4f-8d64-4228-8921-4d90c866ebad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE3347B50>]}
+[0m21:26:29.863759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4f913a4f-8d64-4228-8921-4d90c866ebad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE3272860>]}
+[0m21:26:29.868634 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:26:30.830314 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:26:30.999148 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:26:31.000329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4f913a4f-8d64-4228-8921-4d90c866ebad', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE298A9B0>]}
+[0m21:26:32.702522 [error] [MainThread]: Encountered an error:
+'<' not supported between instances of 'NoneType' and 'NoneType'
+[0m21:26:32.741690 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 254, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 285, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 355, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 332, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 371, in wrapper
+    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 398, in setup_manifest
+    ctx.obj["manifest"] = parse_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 2115, in parse_manifest
+    manifest = ManifestLoader.get_full_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 315, in get_full_manifest
+    manifest = loader.load()
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 420, in load
+    self.parse_project(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 743, in parse_project
+    parser.parse_file(block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 520, in parse_file
+    self.parse_node(file_block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 481, in parse_node
+    config: ContextConfig = self.initial_config(fqn)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 442, in initial_config
+    config_version = min([self.project.config_version, self.root_project.config_version])
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'
+
+[0m21:26:32.750388 [debug] [MainThread]: Command `dbt run` failed at 21:26:32.750388 after 4.27 seconds
+[0m21:26:32.750388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE1FD94B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE37CC190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE37CC1C0>]}
+[0m21:26:32.750388 [debug] [MainThread]: Flushing usage events
+[0m21:26:33.666259 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:30:52.708985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A05B14E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A17CA980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A17CA080>]}
+
+
+============================== 21:30:52.716929 | d37e41fa-26da-4429-9c45-488acf7aeb03 ==============================
+[0m21:30:52.716929 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:30:52.722765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:30:53.546577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd37e41fa-26da-4429-9c45-488acf7aeb03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A1914FD0>]}
+[0m21:30:53.757020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd37e41fa-26da-4429-9c45-488acf7aeb03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A183E470>]}
+[0m21:30:53.761638 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:30:54.558630 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:30:54.830396 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:30:54.838029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd37e41fa-26da-4429-9c45-488acf7aeb03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A1647C40>]}
+[0m21:30:57.453489 [error] [MainThread]: Encountered an error:
+'<' not supported between instances of 'NoneType' and 'NoneType'
+[0m21:30:57.458073 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 254, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 285, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 355, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 332, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 371, in wrapper
+    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 398, in setup_manifest
+    ctx.obj["manifest"] = parse_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 2115, in parse_manifest
+    manifest = ManifestLoader.get_full_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 315, in get_full_manifest
+    manifest = loader.load()
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 420, in load
+    self.parse_project(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 743, in parse_project
+    parser.parse_file(block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 520, in parse_file
+    self.parse_node(file_block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 481, in parse_node
+    config: ContextConfig = self.initial_config(fqn)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 442, in initial_config
+    config_version = min([self.project.config_version, self.root_project.config_version])
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'
+
+[0m21:30:57.463262 [debug] [MainThread]: Command `dbt run` failed at 21:30:57.463262 after 5.04 seconds
+[0m21:30:57.463262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A05B14E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A1D741C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265A1D741F0>]}
+[0m21:30:57.466620 [debug] [MainThread]: Flushing usage events
+[0m21:30:58.543841 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:39:19.518682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72B5BD540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72D81C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72D81C0D0>]}
+
+
+============================== 21:39:19.528592 | 1b1110c5-98ce-4af9-b449-b3f63f962388 ==============================
+[0m21:39:19.528592 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:39:19.528592 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:39:20.138226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1b1110c5-98ce-4af9-b449-b3f63f962388', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72D8F7B50>]}
+[0m21:39:20.271768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1b1110c5-98ce-4af9-b449-b3f63f962388', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72D81E890>]}
+[0m21:39:20.274366 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:39:21.077382 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:39:21.268769 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:39:21.270283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1b1110c5-98ce-4af9-b449-b3f63f962388', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72CF36EF0>]}
+[0m21:39:23.308998 [error] [MainThread]: Encountered an error:
+'<' not supported between instances of 'NoneType' and 'NoneType'
+[0m21:39:23.315603 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 254, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 285, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 355, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 332, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 371, in wrapper
+    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 398, in setup_manifest
+    ctx.obj["manifest"] = parse_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 2115, in parse_manifest
+    manifest = ManifestLoader.get_full_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 315, in get_full_manifest
+    manifest = loader.load()
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 420, in load
+    self.parse_project(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 743, in parse_project
+    parser.parse_file(block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 520, in parse_file
+    self.parse_node(file_block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 481, in parse_node
+    config: ContextConfig = self.initial_config(fqn)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 442, in initial_config
+    config_version = min([self.project.config_version, self.root_project.config_version])
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'
+
+[0m21:39:23.324077 [debug] [MainThread]: Command `dbt run` failed at 21:39:23.324077 after 4.00 seconds
+[0m21:39:23.328618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72B5BD540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72DD50220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A72DD50250>]}
+[0m21:39:23.331694 [debug] [MainThread]: Flushing usage events
+[0m21:39:28.366337 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:42:06.040600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D62F0D480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D650B7430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D650B7B20>]}
+
+
+============================== 21:42:06.048595 | 80257f05-16d1-4323-a94b-e66a1a88d06f ==============================
+[0m21:42:06.048595 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:42:06.048595 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:42:06.531256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '80257f05-16d1-4323-a94b-e66a1a88d06f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D652472E0>]}
+[0m21:42:06.676800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '80257f05-16d1-4323-a94b-e66a1a88d06f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D64914AF0>]}
+[0m21:42:06.677348 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:42:07.574200 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:42:07.836851 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:42:07.839036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '80257f05-16d1-4323-a94b-e66a1a88d06f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D6488B460>]}
+[0m21:42:11.043379 [error] [MainThread]: Encountered an error:
+'<' not supported between instances of 'NoneType' and 'NoneType'
+[0m21:42:11.044422 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 254, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 285, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 355, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 332, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 371, in wrapper
+    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\cli\requires.py", line 398, in setup_manifest
+    ctx.obj["manifest"] = parse_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 2115, in parse_manifest
+    manifest = ManifestLoader.get_full_manifest(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 315, in get_full_manifest
+    manifest = loader.load()
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 420, in load
+    self.parse_project(
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\manifest.py", line 743, in parse_project
+    parser.parse_file(block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 520, in parse_file
+    self.parse_node(file_block)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 481, in parse_node
+    config: ContextConfig = self.initial_config(fqn)
+  File "C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\venv\lib\site-packages\dbt\parser\base.py", line 442, in initial_config
+    config_version = min([self.project.config_version, self.root_project.config_version])
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'
+
+[0m21:42:11.053969 [debug] [MainThread]: Command `dbt run` failed at 21:42:11.053427 after 5.21 seconds
+[0m21:42:11.055569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D62F0D480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D655E8160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D655E8190>]}
+[0m21:42:11.059709 [debug] [MainThread]: Flushing usage events
+[0m21:42:12.757754 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:44:59.519568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFE3CD510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFF65C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFF65C0D0>]}
+
+
+============================== 21:44:59.534106 | 59fc8ada-0184-4e23-bbc5-307561e999a0 ==============================
+[0m21:44:59.534106 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:44:59.534106 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:45:00.189868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '59fc8ada-0184-4e23-bbc5-307561e999a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFF73FB50>]}
+[0m21:45:00.334322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '59fc8ada-0184-4e23-bbc5-307561e999a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFF65E890>]}
+[0m21:45:00.340017 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:45:01.014381 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:45:01.394355 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:45:01.394355 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:45:01.435841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '59fc8ada-0184-4e23-bbc5-307561e999a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFFC5C130>]}
+[0m21:45:01.582075 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:45:01.588319 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:45:01.673956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '59fc8ada-0184-4e23-bbc5-307561e999a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFFC4B520>]}
+[0m21:45:01.673956 [info ] [MainThread]: Found 433 macros
+[0m21:45:01.677286 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '59fc8ada-0184-4e23-bbc5-307561e999a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFFC658A0>]}
+[0m21:45:01.681490 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:45:01.689965 [debug] [MainThread]: Command end result
+[0m21:45:01.754207 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:45:01.760317 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:45:01.773566 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\run_results.json
+[0m21:45:01.777312 [debug] [MainThread]: Command `dbt run` succeeded at 21:45:01.777312 after 2.49 seconds
+[0m21:45:01.778584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFE3CD510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFF65E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EFF73C5B0>]}
+[0m21:45:01.780190 [debug] [MainThread]: Flushing usage events
+[0m21:45:05.164480 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:48:13.395730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A96DF14B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9807C040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9904C280>]}
+
+
+============================== 21:48:13.414926 | 89d1fb9d-2b14-46c8-900f-a01b7d04443b ==============================
+[0m21:48:13.414926 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:48:13.420455 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:48:14.750413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '89d1fb9d-2b14-46c8-900f-a01b7d04443b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A99127B50>]}
+[0m21:48:15.109641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '89d1fb9d-2b14-46c8-900f-a01b7d04443b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9904E7A0>]}
+[0m21:48:15.115159 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m21:48:16.702649 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m21:48:17.607079 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:48:17.654323 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:48:18.049484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '89d1fb9d-2b14-46c8-900f-a01b7d04443b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9A61C130>]}
+[0m21:48:18.537465 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:48:18.548320 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:48:18.698824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '89d1fb9d-2b14-46c8-900f-a01b7d04443b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9A60B430>]}
+[0m21:48:18.707316 [info ] [MainThread]: Found 433 macros
+[0m21:48:18.712288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '89d1fb9d-2b14-46c8-900f-a01b7d04443b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9A624100>]}
+[0m21:48:18.715349 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m21:48:18.732798 [debug] [MainThread]: Command end result
+[0m21:48:18.875318 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m21:48:18.887379 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m21:48:18.907120 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\run_results.json
+[0m21:48:18.913165 [debug] [MainThread]: Command `dbt run` succeeded at 21:48:18.913165 after 5.95 seconds
+[0m21:48:18.915236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A96DF14B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A980484C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024A9A62B220>]}
+[0m21:48:18.917417 [debug] [MainThread]: Flushing usage events
+[0m21:48:21.298512 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:19:27.337231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274702BD4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274714DA980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274714DA080>]}
+
+
+============================== 22:19:27.344187 | a153da27-22d1-42bd-b1a6-e325a1f1bfe4 ==============================
+[0m22:19:27.344187 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:19:27.345259 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\tesfa\\.dbt', 'log_path': 'C:\\Users\\tesfa\\Desktop\\Kiffiya AI\\telegram-analytics-pipeline\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:19:28.035817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a153da27-22d1-42bd-b1a6-e325a1f1bfe4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027471624FD0>]}
+[0m22:19:28.220973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a153da27-22d1-42bd-b1a6-e325a1f1bfe4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002747154E470>]}
+[0m22:19:28.227500 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m22:19:29.221080 [debug] [MainThread]: checksum: 1bfacb87e6914c9942cfa2c4badfc1df19d859fe8ec086286ef238a7d920f97b, vars: {}, profile: , target: , version: 1.10.3
+[0m22:19:29.641115 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:19:29.643834 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:19:29.692760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a153da27-22d1-42bd-b1a6-e325a1f1bfe4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027472B1C130>]}
+[0m22:19:29.875308 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m22:19:29.881150 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m22:19:29.933375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a153da27-22d1-42bd-b1a6-e325a1f1bfe4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027472B26E30>]}
+[0m22:19:29.939486 [info ] [MainThread]: Found 433 macros
+[0m22:19:29.941012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a153da27-22d1-42bd-b1a6-e325a1f1bfe4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027472B24520>]}
+[0m22:19:29.943758 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m22:19:29.957103 [debug] [MainThread]: Command end result
+[0m22:19:30.006935 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\manifest.json
+[0m22:19:30.010959 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\semantic_manifest.json
+[0m22:19:30.021110 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\tesfa\Desktop\Kiffiya AI\telegram-analytics-pipeline\target\run_results.json
+[0m22:19:30.023178 [debug] [MainThread]: Command `dbt run` succeeded at 22:19:30.023178 after 2.86 seconds
+[0m22:19:30.025192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274702BD4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002747054D1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000274719C0070>]}
+[0m22:19:30.027202 [debug] [MainThread]: Flushing usage events
+[0m22:19:30.982096 [debug] [MainThread]: An error was encountered while trying to flush usage events
